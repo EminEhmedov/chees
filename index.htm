@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            width: 100px;
+            height: 100px;
+        }
+        h1{
+            text-align: center;
+           
+            color: black;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           font-weight: 700;
+           font-size: 20px;
+        }
+        .general{
+           margin: auto;
+            width: 100px;
+            height: 20px;
+
+        }
+        section{
+            text-align: center;
+
+        }
+
+        select {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="general"> 
+        <select name="" id="sec" onchange="secim()">
+        <option value="" disabled selected>Olcu sec</option>
+        <option value="1">1:1</option>
+        <option value="2">2:2</option>
+        <option value="3">3:3</option>
+        <option value="4">4:4</option>
+        <option value="6">6:6</option>
+        <option value="9">9:9</option>
+    </select>
+    
+</div>
+   
+<h1 id="h3"></h1>
+    <section >
+       <table border="1"  cellspacing="0"  id="cedvel" style="display: none; margin: auto;">
+
+       </table> 
+    </section>
+    
+    <script src="scripte.js"></script>
+</body>
+</html>
